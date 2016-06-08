@@ -1,6 +1,6 @@
 # Inverting cloze cards in Anki
 
-Use this code to swap the cloze question with the cloze answer on Anki cards:
+Use this code to swap the cloze question with the cloze answer on Anki cards, as long as the card only includes one cloze field (i.e., only `c1`, no `c2` and so on).
 
 ```python
 import re
